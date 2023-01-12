@@ -18,20 +18,21 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Main page</title>
   </head>
 
   <body>
     <!--header-->
-    <header class="header-line">
-      <div class="header container">
-        <div class="header-nav">
+    <header class="header">
+      <div class="header__wrapper container">
+        <div class="header__nav">
           <a class="logo" href="index.html"
-            >Web<span class="logo-studio-black">Studio</span></a
+            >Web<span class="logo__studio">Studio</span></a
           >
           <!--navigation-->
-          <nav class="navigation-menu">
-            <ul class="navigation">
+          <nav class="header__navigation">
+            <ul class="header__navigation-menu">
               <li><a class="link link-active" href="#">Agencja</a></li>
               <li>
                 <a class="link" href="portfolio.html">Portfolio</a>
@@ -42,19 +43,20 @@
         </div>
         <!--header-contacts-->
         <div>
-          <ul class="contacts-header">
-            <li class="menu-nav">
-              <a class="link link-contact" href="mailto:info@devstudio.com">
-                <svg class="icon-email">
+          <ul class="header__contacts">
+            <li class="header__menu-nav">
+              <a class="link link__contact" href="mailto:info@devstudio.com">
+                <svg class="header__contacts-icon">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
-            <li class="menu-nav">
-              <a class="link link-contact" href="tel:+48111111111">
-                <svg class="icon-phone">
-                  <use href="./images/icons.svg#icon-smartphone"></use></svg>
+            <li class="header__menu-nav">
+              <a class="link link__contact" href="tel:+48111111111">
+                <svg class="header__contacts-icon">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
                 +48 111 111 111</a
               >
             </li>
@@ -529,8 +531,8 @@
     <footer class="contacts">
       <div class="container footer-box">
         <div>
-          <a class="logo logo-footer" href="index.html"
-            >Web<span class="logo-studio-white">Studio</span></a
+          <a class="logo" href="index.html"
+            >Web<span class="logo__studio logo__studio--white">Studio</span></a
           >
           <address>
             <ul class="links-footer">

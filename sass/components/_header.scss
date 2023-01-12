@@ -1,0 +1,27 @@
+.header {
+  border-bottom: 1px solid #ececec;
+
+  &__wrapper {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &navigation-menu,
+  &contacts{
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+    display: flex;
+  }
+}

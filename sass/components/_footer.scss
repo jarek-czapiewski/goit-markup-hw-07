@@ -6,6 +6,7 @@
     padding-bottom: 60px;
     display: flex;
     gap: 70px;
+   padding-left: 0px;
   }
 
   &__links{
@@ -39,6 +40,19 @@
       &__contact{
         color: rgba(255, 255, 255, 0.6);
       }
+
+
+&__social-header{
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
 
       &__social-links{
         align-items: center;

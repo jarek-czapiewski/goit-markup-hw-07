@@ -2,9 +2,9 @@
   border-bottom: 1px solid $header-color;
 
   &__wrapper {
+    display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
   }
@@ -15,10 +15,8 @@
     align-items: center;
   }
 
-  
   &__contacts-item {
     color: $main-gray-color;
-    display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -37,7 +35,6 @@
     fill: currentColor;
   }
 
-
   &__navigation-menu {
     display: flex;
     gap: 46px;
@@ -48,9 +45,9 @@
     line-height: 1.15;
   }
 
-&__nav-link{
-  text-decoration: none;
-}
+  &__nav-link {
+    text-decoration: none;
+  }
 
   &__nav-link--active {
     color: $brand-color;
@@ -70,12 +67,16 @@
 
   &__contacts {
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
+    gap: 30px;
     list-style-type: none;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
     line-height: 1.15;
+  }
+
+  &__link-item {
+    position: relative;
+    right: 15px;
   }
 }

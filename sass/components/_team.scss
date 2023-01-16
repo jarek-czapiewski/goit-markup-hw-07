@@ -23,7 +23,7 @@
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--main-gray-color);
+    color: $main-gray-color;
 }
 
 &__people &__photos{
@@ -33,11 +33,11 @@
 }
 
 &__icons{
-    fill: var(--lightgray-color);
+    fill: $lightgray-color;
     display: block;
     &:hover{ 
-        fill: var(--white-color);
-        background-color: var(--brand-color);
+        fill: $white-color;
+        background-color: $brand-color;
         border-radius: 50%;
     }
 }

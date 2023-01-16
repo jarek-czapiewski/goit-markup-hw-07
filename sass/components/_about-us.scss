@@ -1,6 +1,6 @@
 .about-us {
   margin-top: -94px;
-  background-color: var(--light-color);
+  background-color: $light-color;
   text-align: center;
 
   &__list {
@@ -26,7 +26,7 @@
     position: absolute;
     top: 224px;
     text-transform: uppercase;
-    color: var(--white-color);
+    color: $white-color;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

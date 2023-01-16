@@ -4,14 +4,14 @@
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--brand-color);
+  color: $brand-color;
   text-decoration: none;
   margin-right: 93px;
 
   &__studio {
-    color: var(--black-color);
+    color: $black-color;
     &--white {
-      color: var(--white-color);
+      color: $white-color;
     }
   }
 }
